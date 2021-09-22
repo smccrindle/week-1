@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>The Toaster</title>
+        <style>
+            body {
+                text-align: center;
+            }
+            h1 {
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The Toaster</h1>
+        <img src="silver-toaster.jpg" alt="silver toaster" />
+        <p>The greatest thing since sliced bread.</p>
+        <script>
+            var p = document.querySelector("p");
+            p.onclick = function(){
+                prompt("How would you like your toast done?");
+            }
+        </script>
+    </body>
+</html>
